@@ -100,10 +100,6 @@ nav {
     width: fit-content;
 }
 
-.post-card-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 
 .post-card-image-small {
     width: 18rem;
