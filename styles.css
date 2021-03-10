@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {
+    --light-white: #E5E7EB;
+    --dark-gray: #15171A;
+    --blue: #3eb0ef;
+}
+
+body {
+    font-family: Open Sans;
+    margin: 0;
+}
+
+.div-outer {
+    background-color: var(--dark-gray);
+    color: var(--light-white);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    margin: auto;
+    max-width: 60rem;
+}
+
+.nav-pills {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0rem;
+}
+
+.link {
+    padding: 0.45rem 1rem;
+}
+
+.link-img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.btn-secondary {
+    border: 1px solid var(--light-white);
+    border-radius: 1rem;
+    height: fit-content;
+    padding: 0.1rem 1rem;
+    margin: 0.45rem;
+}
+
+.header {
+    background-color: var(--dark-gray);
+    color: var(--light-white);
+    height: 20rem;
+    display: flex;
+    align-content: space-around;
+}
+
+.header-inside {
+    margin: auto;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.header-img {
+    width: 3rem;
+    height: 3rem;
+    padding-right: 1rem;
+}
+
+.header-name {
+    margin: 0rem auto 1rem auto;
+    width: fit-content;
+    display: flex;
+}
+
+.header-inside > h3, h1 {
+    margin: 0rem;
+}
+
+.post-feed {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 60rem;
+}
+
+.post-card-large {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 1rem;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+    width: fit-content;
+}
+
+.post-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.post-card-image-small {
+    width: 18rem;
+}
+
+.post-card-image-medium {
+    width: 28rem;
+    height: 12rem;
+}
+
+.post-card-image-link {
+    width: fit-content;
+}
+
+.post-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0 1rem 2rem;
+    width: 18rem;
+    font-size: 1.2rem;
+}
+
+.post-card-content-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+    width: 18rem;
+    font-size: 0.9rem;
+}
+
+.post-card-content-medium {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+    width: 28rem;
+    font-size: 0.9rem;
+}
+
+.post-card-image {
+    max-width: 36rem;
+    border-radius: 5px;
+}
+
+.post-card-primary-tag {
+    color: var(--blue);
+    margin: 0 0 0.2em;
+    font-size: 0.7rem;
+}
+
+.post-card-title {
+    margin: 0 0 0.4em;
+}
+
+.post-card-section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6rem;
+    margin: 0 0 1.5em;
+}
+
+.post-card-footer {
+    display: flex;
+}
+
+.post-card-byline-content {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    margin: 0 0 0 6px;
+    font-size: 0.8rem;
+}
+
+.author-profile-img {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: var(--dark-gray);
+    color: var(--light-white);
+}
+
+.footer-inner {
+    padding: 1rem 1rem 4rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 60rem;
+    font-weight: 100;
+    font-size: 0.75rem;
+}
